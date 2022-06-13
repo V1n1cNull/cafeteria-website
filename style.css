@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(224, 120, 60);
+    color: black;
+    
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 5px; /*reduzir a borda*/
+    box-shadow: 7px 7px 15px black;
+    max-width: 800px;
+    min-width: 300px; 
+    padding: 5px;
+    margin: auto; /*colocar no meio da tela*/
+    
+
+ 
+}
+h1{
+    text-align: justify;
+    text-indent: 5px;
+}
+
+h2{
+    text-indent: 5px;
+}
+p{
+    text-indent: 20px;
+    max-width: inherit;
+    min-width: inherit;
+}
+#cabeçalho {
+    background-color: rgb(170, 99, 51);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+    max-width: inherit;
+    min-width: inherit;
+    margin: auto;
+}
+/*todas as imagens estão com a altura proporcional*/
+
+.imagem_geral{
+    width: 400px;
+    height: 287px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.img_da_mulher{
+
+    width: 400px;
+    height: 260px;
+}
+.img_semente{
+
+    width: 400px;
+    height: 260px;
+}
+.img_pc_café{
+    width: 400px;
+    height: 260px;
+}
+
+#rodapé{
+    background-color: Grey;
+}
+.contatos{
+    margin: right;
+}
